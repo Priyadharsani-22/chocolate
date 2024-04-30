@@ -1,0 +1,123 @@
+.milk{
+    display:grid;
+    grid-template-columns: 50rem auto;
+}
+.milk img{
+    width:450px;
+    height:300px;
+    padding-left: 7rem;
+   
+}
+.milk h4{
+    padding-left: 50px;
+
+}
+.milk h5{
+    padding-left: 50px;
+}
+.milk p{
+    padding-left: 50px;
+    font-weight: 500;
+}
+.quantity{
+    display: grid;
+    grid-template-columns: 5.5rem 5.5rem auto;
+}
+.quantity button{
+    height: 2rem;
+    width: 3.8rem;
+    border-radius: 5px;
+}
+.quantity button:hover{
+    background-color: rgba(165, 42, 42, 0.184);
+}
+.checked {
+    color: orange;
+  }
+  .add{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+    
+  }
+  .add > div {
+    
+ 
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+  }
+  .add button{
+    height:3rem;
+    width:10rem;
+    
+  }
+  .padd{
+    padding-right: 40px;
+    padding-left: 100px;
+  }
+  .header{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    background: url("./choci/back.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 3rem;
+    color:green;
+    
+    
+    width:93rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    
+   
+   
+}
+.header img{
+    width:100px;
+    height:75px;
+
+}
+.home{
+    padding-left:38rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+ .icons{
+    padding-top: 2rem;
+    padding-bottom: 1.6rem;
+} 
+
+.header a{
+    color:green;
+    text-decoration: none;
+    font-size: 20px;
+    
+  
+}
+.header button{
+    color:green;
+    font-size: 20px;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.homeright{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.star{
+    padding-left: 60px;
+}
+.social{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.media{
+    padding-left: 200px;
+    
+}
+.media button{
+    width: 10rem;
+    height: 2.5rem;
+}
